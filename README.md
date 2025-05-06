@@ -31,7 +31,7 @@ Before analysis, the raw booking data underwent a series of transformation and c
 * **Data Type Conversion:** Ensuring columns had the correct data types (e.g., converting date fields to Date type, numeric fields to appropriate number types).
 * **Removing Duplicates:** Identifying and removing any duplicate booking records to avoid skewing the analysis.
 * **Filtering Outliers (if applicable):** Investigating and potentially filtering extreme or erroneous data points (e.g., unusually long stays or very high/low prices), with clear documentation of the criteria used.
-* **Creating Calculated Columns:** 
+* **Creating Calculated Columns** 
 * **Standardizing Data:** Ensuring consistency in categorical columns (e.g., trimming whitespace, converting text to a consistent case).
 
 ## Data Modeling
@@ -47,6 +47,7 @@ The transformed and cleaned data was then structured into a relational model wit
 * **Relationship Establishment:** One-to-many relationships were established between the dimension tables and the fact table using the corresponding key columns. For example, one date in the Date Dimension can be associated with Arrival Date in the fact table.
 
 ## Data Analysis and Visualization
+![image](https://github.com/user-attachments/assets/a962e832-0fb4-424d-994e-d2617f066121)
 
 Following the data modeling phase, I proceeded to analyze the hotel booking data and create visualizations in Power BI to address the key business questions outlined in the Problem Statement. The dashboard developed (as referenced in the image) provides a comprehensive overview of booking patterns and trends. Key visualizations and insights include:
 
